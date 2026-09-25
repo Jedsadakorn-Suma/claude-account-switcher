@@ -1,0 +1,16 @@
+# If you clone this repo and actually run setup in-place, keep everything
+# below out of version control -- it's all per-machine, per-account state.
+acc1/
+acc2/
+shared/CLAUDE.md
+shared/skills/
+shared/settings.json
+shared/settings.local.json
+shared/plugins/
+shared/projects/
+state/
+handoff/
+*.bak
+*.bak-*
+bin/claude1.cmd
+bin/claude2.cmd

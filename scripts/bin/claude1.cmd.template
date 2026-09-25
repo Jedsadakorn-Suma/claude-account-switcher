@@ -1,0 +1,4 @@
+@echo off
+REM Copy this to bin\claude1.cmd (drop the .template) and replace <SANDBOX_ROOT>
+REM with your absolute path, e.g. C:\Users\you\claude-sandbox
+powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -File "<SANDBOX_ROOT>\launch.ps1" acc1 %*
